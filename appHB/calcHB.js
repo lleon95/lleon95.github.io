@@ -199,6 +199,18 @@ function nearValues(x, xi, k)
 
 
 	}
+	// Comprobacion de repeticiones
+	for(var i = 0; i < 4; i++)
+	{
+		for(var j = 0; j < 4; j++)
+		{
+			if(j != i)
+			{
+				if(xi[indexes[i]] == xi[indexes[j]]) xi[indexes[j]] = xi[indexes[j]] + 0.1; 
+			}
+		}
+	}
+
 	return indexes;
 
 }
@@ -213,6 +225,7 @@ function interpolate(x, k, yi, xi)
 	indexes = nearValues(x, xi, k);
 	// Calcular constantes
 	diffinit = newtonConstants(indexes, xi, yi, x);
+	console.log(diffinit);
 	// Sumatoria
 	for(var i = 0; i <= 4; i++)
 	{
@@ -221,6 +234,7 @@ function interpolate(x, k, yi, xi)
 		{
 			// Calcular multiplicando
 			multiplicando = multiplicando * (x - xi[indexes[j]]);
+
 		}
 		if(!isNaN(varinterpolation + diffinit[i]*multiplicando))
 			varinterpolation = varinterpolation + diffinit[i]*multiplicando;
