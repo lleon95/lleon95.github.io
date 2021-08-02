@@ -1,0 +1,102 @@
+# Site settings
+title: Luis G. Leon-Vega
+name: Luis G. Leon-Vega
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/lleon95
+ - title: GitLab
+   url: https://gitlab.com/lleon95
+ - title: LinkedIn
+   url: https://www.linkedin.com/lleon95
+
+#Any buzzword skills you want to include
+skills:
+ - Advanced C/C++
+ - Linux Kernel
+ - Internet of Things
+ - Approximate Computing
+ - High-Level Synthesis
+ - Parallel Computing
+ - Distributed Computing
+ - MPI/OpenMP/CUDA stack
+ - HPC (Torque, Slurm)
+ - Hardware Acceleration
+ - NodeJS
+ - Technical Architecture
+ - Machine learning
+
+#Work experience is required
+roles:
+ - title: Embedded Software Engineer
+   start: 2019
+   end: Ongoing
+   employer: RidgeRun LLC
+   description: Development of multimedia/streaming applications with GStreamer, algorithm optimisation, computer vision and FPGA expert. I really feel proud of <a href="https://developer.ridgerun.com/wiki/index.php?title=V4L2_FPGA">V4L2 FPGA</a> and <a href="https://developer.ridgerun.com/wiki/index.php?title=FPGA_Image_Signal_Processor">FPGA ISP</a> projects. I am also specialist in NVIDIA Jetson boards.
+ - title: Scientific Software Engineer - Student
+   start: 2020
+   end: 2020
+   employer: eXact Lab SRL
+   description: In charge of optimising and accelerating firm real-time industrial applications with CUDA, AVX2/AVX512 intrinsics and multi-threading. Specialist in computer architecture/organisation.
+ - title: Research Fellow (Machine Learning)
+   start: 2020
+   end: 2020
+   employer: Consiglio Nazionale delle Ricerche
+   description: Under a research grant in Machine Learning in Nanoscience (CNR-IOM). The research topic is the application of Object Tracking techniques for cells tracking. The aim is to record the effects of several inhibitors on glioma cells. 
+ - title: Research Student
+   start: 2017
+   end: 2019
+   employer: Costa Rican Institute of Technology
+   description: ZedBrain is a project which aims to simulate neural network models in order to research future medical treatments for replacing damaged parts of the brain. Actually, all the implementations are being based on FPGAs (Zedboard), which combines FPGA and an ARM Embedded System, where I took part developing device drivers, IP Cores in High-Level Synthesis, and web applications.
+ - title: Undergraduate Research Student
+   start: 2019
+   end: 2019
+   employer: Karlsruher Institut für Technologie
+   description: Bachelor thesis on quantifying traffic dynamics In Costa Rica through an application based on Computer Vision in C++ and OpenCV applied to Embedded Systems using Approximation Computing and Hardware Acceleration.
+ - title: Freelance / Klooid Innovations
+   start: 2013
+   end: 2017
+   employer: Klooid Innovations
+   description: Klooid Innovations is a Costa Rican startup focused in electronics, software and products prototyping, designing and development. My participation was as the electronics and back-end system architect.
+ - title: Summer Student
+   start: 2017
+   end: 2017
+   employer: CERN
+   description: I worked as an Electronics Engineer in the CMS (Compact Muon Solenoid) experiment project. I have learned WinCC SCADA by Siemens for monitoring and controlling CAEN high voltage power supplies used in the CMS project, specifically, in DT (Drift Tube) Chambers. 
+
+#Education is required
+education:
+ - level: Master in High-Performance Computing (MHPC)
+   date: 2020
+   subject: Master in High-Performance Computing for Scientific/AI Applications
+   school: Scuola Internazionale Superiore di Studi Avanzati / International Centre for Theoretical Physics
+ - level: Licenciate Degree (Lic)
+   date: 2018
+   subject: Electronics Engineering
+   school: Costa Rica Institute of Technology (ITCR)
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - lleon95/group2_HP-EC_2021
+ - lleon95/NanoSciTracker-Python
+ - lleon95/P2.12_Intel_Optimisation_Tools
+ - lleon95/Generative_Models_TF_Course
+ - lleon95/P1.9_Collaborative_Project
+ - lleon95/templated-bst
+
+
+intro: |
+  I am an Electronics Engineer with High-Performance Computing and Hardware Acceleration expertise. I graduated as Electronics Engineer with honours from ITCR and as Master in High-Performance Computing from SISSA/ICTP in Italy. Currently, I am pursuing a second Master's in Electronics Engineering at ITCR, where I am researching about approximate Deep Learning inference acceleration on low-power devices, mainly on FPGAs.<br/><br/>
+  I started programming in 2010, where I have been exposed to many fields, from Web, IOT, Electronics, and Linux. I have three years of experience in Industry, working for RidgeRun LLC and eXact Lab. I am also a free researcher at ITCR, where I collaborate with Approximate Computing topics.<br/><br/>
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+   <strong>High-Performance Computing</strong>: In the last 2 years, I have been working in algorithm optimisation for soft/firm real-time applications in multimedia streaming and industrial applications. I am currently specialist in intrinsics (AVX2/AVX512/NEON), multi-threading (OpenMP), distributed computing (OpenMPI/IntelMPI), and general-purpose graphics acceleration (CUDA). Additionally, it has involved deep knowledge about system's architecture and FORTRAN/C/C++ languages at compiler level to unlock the potential of software implementations. I have written the following <a href="https://www.ridgerun.com/post/why-can-t-we-get-100-of-the-cpu-peak-performance">article</a> for RidgeRun's blog<br/><br/>
+   <strong>Hardware Acceleration</strong>: My research field of interest is hardware acceleration on low-power devices like FPGAs. I am currently specialised in High-Level Synthesis on Xilinx platforms. I am currently working on the deep learning inference acceleration at the Edge, where I am supervising a couple of bachelor's theses related to IP Core generation for fast Matrix-Matrix multiplication and Winograd/FFT Convolution. <br/><br/>
+   <strong>Linux</strong>: As part of my duties, I am familiarised with the Linux kernel and its internal structures, specially, for creating device drivers for camera sensors, and I2C devices. Most software I work on run on Linux.<br/><br/>
+   <strong>Internet of Things</strong>: I am currently working on a software backbone for supporting serverless IoT applications based on function lambdas (similar to AWS) with MQTT and multi-database support. The idea is to offer an open source solution for baremetal deployments<br/><br/>
