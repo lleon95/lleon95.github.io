@@ -97,8 +97,23 @@ intro: |
 thesis: |
   <h2>My theses</h2>
   <ul>
-  <li>Lic: Designing an Embedded Traffic Dynamics Meter: A case study. <a href="https://repositoriotec.tec.ac.cr/handle/2238/10425">Download</a></li>
-  <li>MHPC: NanoSciTracker: an object tracking library for microbiology and an industrial collimation algorithm optimisation. <a href="https://mhpc.gitlab.io/mhpc-thesis/thesis.pdf">Download</a></li>
+    <li>Lic: Designing an Embedded Traffic Dynamics Meter: A case study. <a href="https://repositoriotec.tec.ac.cr/handle/2238/10425">Download</a></li>
+    <li>MHPC: NanoSciTracker: an object tracking library for microbiology and an industrial collimation algorithm optimisation. <a href="https://mhpc.gitlab.io/mhpc-thesis/thesis.pdf">Download</a></li>
+  </ul>
+  <h2>Supervised work</h2>
+  <ul>
+    <li>Thesis: <strong>Randall Bonilla</strong> [I-2019/Finished]: Design of a software application for the automatic computing a PID controller of DC/DC Converters</li>
+    <li>Thesis: <strong>Daniel Castro</strong> [I-2021/Finished/Cum laude]: Redesign and integration of the control/power PCBs in an EV charger</li>
+    <li>Thesis: <strong>Cristhian Rojas</strong> [I-2021/Finished]: Design of an unified platform based on microservices for managing the EV chargers</li>
+    <li>Thesis: <strong>David Picado</strong> [I-2021/On-going]: Design of an OCPP-compliant firmware for EV chargers</li>
+    <li>Thesis: <strong>Alejandro Rodriguez</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast CNN convolutions on FPGAs</li>
+    <li>Thesis: <strong>Eduardo Salazar</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast DNN matrix-matrix multiplications on FPGAs</li>
+  </ul>
+  <h2>Publications</h2>
+  <ul>
+    <li><u>Luis G. León-Vega</u>, Jorge Castro-Godínez, Jörg Henkel. <b>Measuring Traffic Dynamics at the Edge</b>, in <i>International Work Conference on Bioinspired Intelligence (IWOBI)</i>, UCR & TEC, Costa Rica, October 21-23, 2020.</li>
+    <li><u>Luis G. León-Vega</u>, Kaleb Alfaro-Badilla, Alfonso Chacón-Rodríguez, Carlos Salazar-García. <b>Optimizing Big Data Network Transfers in FPGA SoC Clusters: TECBrain Case Study</b>, in <i>Latin American High Performance Computing Conference (CARLA 2019)</i>, Costa Rica, September 25-27, 2019.</li>
+    <li>Kaleb Alfaro-Badilla, Andrés Arroyo-Romero, Carlos Salazar-García, <u>Luis G. León-Vega</u>, Javier Espinoza-González, Franklin Hernández-Castro, Alfonso Chacón-Rodríguez, Georgios Smaragdos, Christos Strydis. <b>Improving the Simulation of Biologically Accurate Neural Networks Using Data Flow HLS Transformations on Heterogeneous SoC-FPGA Platforms </b>, in <i>Latin American High Performance Computing Conference (CARLA 2019)</i>, Costa Rica, September 25-27, 2019.</li>
   </ul>
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
