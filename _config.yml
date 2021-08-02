@@ -100,6 +100,7 @@ thesis: |
     <li>Lic: Designing an Embedded Traffic Dynamics Meter: A case study. <a href="https://repositoriotec.tec.ac.cr/handle/2238/10425">Download</a></li>
     <li>MHPC: NanoSciTracker: an object tracking library for microbiology and an industrial collimation algorithm optimisation. <a href="https://mhpc.gitlab.io/mhpc-thesis/thesis.pdf">Download</a></li>
   </ul>
+  <br><br>
   <h2>Supervised work</h2>
   <ul>
     <li>Thesis: <strong>Randall Bonilla</strong> [I-2019/Finished]: Design of a software application for the automatic computing a PID controller of DC/DC Converters</li>
@@ -109,6 +110,7 @@ thesis: |
     <li>Thesis: <strong>Alejandro Rodriguez</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast CNN convolutions on FPGAs</li>
     <li>Thesis: <strong>Eduardo Salazar</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast DNN matrix-matrix multiplications on FPGAs</li>
   </ul>
+  <br><br>
   <h2>Publications</h2>
   <ul>
     <li><u>Luis G. León-Vega</u>, Jorge Castro-Godínez, Jörg Henkel. <b>Measuring Traffic Dynamics at the Edge</b>, in <i>International Work Conference on Bioinspired Intelligence (IWOBI)</i>, UCR & TEC, Costa Rica, October 21-23, 2020.</li>
