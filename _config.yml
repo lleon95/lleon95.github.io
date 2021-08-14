@@ -106,9 +106,10 @@ thesis: |
     <li>Thesis: <strong>Randall Bonilla</strong> [I-2019/Finished]: Design of a software application for the automatic computing a PID controller of DC/DC Converters</li>
     <li>Thesis: <strong>Daniel Castro</strong> [I-2021/Finished/Cum laude]: Redesign and integration of the control/power PCBs in an EV charger</li>
     <li>Thesis: <strong>Cristhian Rojas</strong> [I-2021/Finished]: Design of an unified platform based on microservices for managing the EV chargers</li>
-    <li>Thesis: <strong>David Picado</strong> [I-2021/On-going]: Design of an OCPP-compliant firmware for EV chargers</li>
+    <li>Thesis: <strong>David Picado</strong> [I-2021/Finished]: Design of an OCPP-compliant firmware for EV chargers</li>
     <li>Thesis: <strong>Alejandro Rodriguez</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast CNN convolutions on FPGAs</li>
     <li>Thesis: <strong>Eduardo Salazar</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast DNN matrix-matrix multiplications on FPGAs</li>
+    <li>Thesis: <strong>Edgar Chavez</strong> [II-2021/On-going]: Implementing of a hardware accelerated Smart Parking application with GStreamer and TensorFlowLite on an i.MX8M Plus</li>
   </ul>
   <br><br>
   <h2>Publications</h2>
