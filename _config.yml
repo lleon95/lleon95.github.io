@@ -24,15 +24,21 @@ skills:
  - High-Level Synthesis
  - Parallel Computing
  - Distributed Computing
- - MPI/OpenMP/CUDA stack
+ - MPI/OpenMP/CUDA/OpenACC stack
  - HPC (Torque, Slurm)
  - Hardware Acceleration
  - NodeJS
  - Technical Architecture
- - Machine learning
+ - Backend Machine learning
+ - GStreamer
 
 #Work experience is required
 roles:
+ - title: Postgraduate Research Student
+   start: 2021
+   end: Ongoing
+   employer: Costa Rican Institute of Technology
+   description: Approximate FPGA Accelerators for Deep Learning
  - title: Embedded Software Engineer
    start: 2019
    end: Ongoing
@@ -71,6 +77,14 @@ roles:
 
 #Education is required
 education:
+ - level: PhD
+   date: 2025
+   subject: PhD in Advanced Data Science and Artifical Intelligence
+   school: University of Trieste
+ - level: M.Sc
+   date: 2022
+   subject: Master's in Electronics Engineering
+   school: Costa Rica Institute of Technology (ITCR)
  - level: Master in High-Performance Computing (MHPC)
    date: 2020
    subject: Master in High-Performance Computing for Scientific/AI Applications
@@ -92,13 +106,14 @@ github:
 
 intro: |
   I am an Electronics Engineer with High-Performance Computing and Hardware Acceleration expertise. I graduated as Electronics Engineer with honours from ITCR and as Master in High-Performance Computing from SISSA/ICTP in Italy. Currently, I am pursuing a second Master's in Electronics Engineering at ITCR, where I am researching about approximate Deep Learning inference acceleration on low-power devices, mainly on FPGAs.<br/><br/>
-  I started programming in 2010, where I have been exposed to many fields, from Web, IOT, Electronics, and Linux. I have three years of experience in Industry, working for RidgeRun LLC and eXact Lab. I am also a free researcher at ITCR, where I collaborate with Approximate Computing topics.<br/><br/>
+  I started programming in 2010, where I have been exposed to many fields, from Web, IOT, Electronics, and Linux. I have three years of experience in Industry, working for RidgeRun LLC and eXact Lab. I am also a postgraduate researcher at ITCR, where I collaborate with Approximate Computing topics.<br/><br/>
 
 thesis: |
   <h2>My theses</h2>
   <ul>
     <li>Lic: Designing an Embedded Traffic Dynamics Meter: A case study. <a href="https://repositoriotec.tec.ac.cr/handle/2238/10425">Download</a></li>
     <li>MHPC: NanoSciTracker: an object tracking library for microbiology and an industrial collimation algorithm optimisation. <a href="https://mhpc.gitlab.io/mhpc-thesis/thesis.pdf">Download</a></li>
+    <li>M.Sc (In progress): Design of a library of parameterised accelerators of DNN-based inference algorithms at the Edge with FPGAs and Approximate Computing</li>
   </ul>
   <br><br>
   <h2>Supervised work</h2>
@@ -108,8 +123,14 @@ thesis: |
     <li>Thesis: <strong>Cristhian Rojas</strong> [I-2021/Finished]: Design of an unified platform based on microservices for managing the EV chargers</li>
     <li>Thesis: <strong>David Picado</strong> [I-2021/Finished]: Design of an OCPP-compliant firmware for EV chargers</li>
     <li>Thesis: <strong>Alejandro Rodriguez</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast CNN convolutions on FPGAs</li>
-    <li>Thesis: <strong>Eduardo Salazar</strong> [II-2021/On-going]: Design of a hardware accelerator for computing fast DNN matrix-matrix multiplications on FPGAs</li>
-    <li>Thesis: <strong>Edgar Chavez</strong> [II-2021/On-going]: Implementing of a hardware accelerated Smart Parking application with GStreamer and TensorFlowLite on an i.MX8M Plus</li>
+    <li>Thesis: <strong>Eduardo Salazar</strong> [II-2021/Finished/Cum laude]: Design of a configurable processing element to accelerate deep neural networks</li>
+    <li>Thesis: <strong>Edgar Chaves</strong> [II-2021/Finished]: Implementing of a hardware accelerated Smart Parking application with GStreamer and TensorFlowLite on an i.MX8M Plus</li>
+    <li>Design Project: <strong>Jose Ortega</strong> [II-2021/Finished]: Design of a microkernel-based open cloud service provider</li>
+    <li>Design Project: <strong>Fabricio Elizondo</strong> [I-2022/On-going]: Design and implementation of approximate activation functions for DCNNs</li>
+    <li>Design Project: <strong>David Cordero</strong> [I-2022/On-going]: Design and implementation of a testbench for testing approximations on DNNs using TensorFlow</li>
+    <li>Thesis: <strong>Erick Obregon</strong> [I-2022/On-going]: Design and implementation of TFLite Delegate for the Flexible Accelerators Library (FAL) on FPGAs</li>
+    <li>Thesis: <strong>Esteban Campos</strong> [I-2022/On-going]: Design and implementation of Linux Device Drivers for the Flexible Accelerators Library (FAL) on FPGAs</li>
+    <li>Thesis: <strong>Jose Ortega</strong> [I-2022/On-going]: Design and Implementation of a microkernel-based open cloud service provider</li>
   </ul>
   <br><br>
   <h2>Publications</h2>
@@ -117,6 +138,11 @@ thesis: |
     <li><u>Luis G. León-Vega</u>, Jorge Castro-Godínez, Jörg Henkel. <b>Measuring Traffic Dynamics at the Edge</b>, in <i>International Work Conference on Bioinspired Intelligence (IWOBI)</i>, UCR & TEC, Costa Rica, October 21-23, 2020.</li>
     <li><u>Luis G. León-Vega</u>, Kaleb Alfaro-Badilla, Alfonso Chacón-Rodríguez, Carlos Salazar-García. <b>Optimizing Big Data Network Transfers in FPGA SoC Clusters: TECBrain Case Study</b>, in <i>Latin American High Performance Computing Conference (CARLA 2019)</i>, Costa Rica, September 25-27, 2019.</li>
     <li>Kaleb Alfaro-Badilla, Andrés Arroyo-Romero, Carlos Salazar-García, <u>Luis G. León-Vega</u>, Javier Espinoza-González, Franklin Hernández-Castro, Alfonso Chacón-Rodríguez, Georgios Smaragdos, Christos Strydis. <b>Improving the Simulation of Biologically Accurate Neural Networks Using Data Flow HLS Transformations on Heterogeneous SoC-FPGA Platforms </b>, in <i>Latin American High Performance Computing Conference (CARLA 2019)</i>, Costa Rica, September 25-27, 2019.</li>
+    
+    <li><u>Luis G. Leon-Vega</u>, Eduardo Salazar-Villalobos, Jorge Castro-Godínez. <b>Accelerating Machine Learning at the Edge with Approximate Computing on FPGAs</b>, in <i>Bioinspired Processing 2021 Special Issue(BIP)</i>, Costa Rica, November 4th, 5th 2021. (Approved)</li>
+    <li>Jose Ortega Gonzalez, <u>Luis G. Leon-Vega</u>. <b>Design of a Microkernel-based Cloud Manager for IoT Services</b>, in <i>Bioinspired Processing 2021 Special Issue(BIP)</i>, Costa Rica, November 4th, 5th 2021. (Approved)</li>
+    <li>Edgar Chaves Gonzalez, <u>Luis G. Leon-Vega</u>. <b>Benchmarking the NXP i.MX8M+ Neural Processing Unit</b>, in <i>Bioinspired Processing 2021 Special Issue(BIP)</i>, Costa Rica, November 4th, 5th 2021. (Approved)</li>
+
   </ul>
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
