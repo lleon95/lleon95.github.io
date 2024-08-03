@@ -36,7 +36,7 @@ skills:
 roles:
  - title: Postgraduate Research Student
    start: 2021
-   end: Ongoing
+   end: 2022
    employer: Costa Rican Institute of Technology
    description: Approximate FPGA Accelerators for Deep Learning
  - title: Embedded Software Engineer
@@ -44,11 +44,6 @@ roles:
    end: Ongoing
    employer: RidgeRun LLC
    description: Development of multimedia/streaming applications with GStreamer, algorithm optimisation, computer vision and FPGA expert. I really feel proud of <a href="https://developer.ridgerun.com/wiki/index.php?title=V4L2_FPGA">V4L2 FPGA</a> and <a href="https://developer.ridgerun.com/wiki/index.php?title=FPGA_Image_Signal_Processor">FPGA ISP</a> projects. I am also specialist in NVIDIA Jetson boards.
- - title: Scientific Software Engineer - Student
-   start: 2020
-   end: 2020
-   employer: eXact Lab SRL
-   description: In charge of optimising and accelerating firm real-time industrial applications with CUDA, AVX2/AVX512 intrinsics and multi-threading. Specialist in computer architecture/organisation.
  - title: Research Fellow (Machine Learning)
    start: 2020
    end: 2020
